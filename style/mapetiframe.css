@@ -1,0 +1,169 @@
+body{
+    all: unset;
+}
+/*Generic code */
+.full-width{
+    width: 100%;
+}
+.d-flex{
+    display: flex
+}
+.space-btwn{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+.w-80{
+    width: 80%;
+}
+.h-400{
+    height: 400px;
+}
+/*END*/
+#ourTeams{
+    background: linear-gradient(to bottom, #fff, #ccddcc 90%, #eee 35%, #ccddcc 25%);
+}
+#contact{
+    background-color: #ccddcc;
+}
+nav{
+  font-size: 22px;
+}
+div > nav > img{
+width: 10%;
+}
+h1{
+    font-size: 75px;
+    font-family: 'Lora', serif;
+}
+p{
+    font-size: 30px;
+}
+.form{
+    width: 50%;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    width: 50%;
+}
+.cardsChild{
+    width: 30%;
+}
+.cardsChild:hover{
+    box-shadow: 10px 10px 10px rgb(29, 66, 7);
+    transform: scale(1.01);
+} 
+.cardsChild > p {
+    font-size: 25px;
+    padding: 10%;
+}
+.slider > img {
+    display: none;
+}
+img.active {
+    width: 80%;
+    display: block;
+    animation: fade 0.8s;
+}
+.cont-btn {
+    justify-content: center;
+}
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+}
+footer > div > div > div > img{
+    width: 32%;
+}
+
+@media screen and (max-width: 768px){
+   .container{
+       margin: auto;
+   }
+   .mapouter{
+       width: 100%;
+   }
+   .form{
+       width: 100%;
+   }
+   #ourTeams{
+    height: unset;
+}
+   .cardsChild{
+       width: 70%;
+       margin-top: 10%;
+       height: unset;
+   }
+   .cardsChild:hover{
+       box-shadow: none;
+       transform: none;
+   }
+   .cardsChild > img {
+       height: 250px; 
+   }
+   .cardsChild > p {
+       font-size: 18px;
+   }
+   .col-4{
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+  }
+  .row{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  h1{
+      font-size: 35px;
+  }
+  p{
+      font-size: 16px;
+  }
+  .nonForPhone {
+      display: none;
+  }
+  .aboutImg{
+      width: 50%;
+      height: 300px;
+      margin: 0 70px 0 100px;
+  }
+  .btn-nav{
+      font-size: 20px;
+  }
+  #firstSection{
+      display: flex;
+      align-items: center;
+  }
+  #aboutUs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  p{
+      text-align: center;
+      font-size: 16px;
+  }
+  #contact{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
