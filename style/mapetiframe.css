@@ -27,6 +27,9 @@ body{
 .h-400{
     height: 400px;
 }
+.font-24px{
+    font-size: 24px;
+}
 /*END*/
 #ourTeams{
     background: linear-gradient(to bottom, #fff, #ccddcc 90%, #eee 35%, #ccddcc 25%);
@@ -34,18 +37,12 @@ body{
 #contact{
     background-color: #ccddcc;
 }
-nav{
-  font-size: 22px;
-}
 div > nav > img{
 width: 10%;
 }
 h1{
-    font-size: 75px;
+    font-size: 65px;
     font-family: 'Lora', serif;
-}
-p{
-    font-size: 30px;
 }
 .form{
     width: 50%;
@@ -63,7 +60,7 @@ p{
     transform: scale(1.01);
 } 
 .cardsChild > p {
-    font-size: 25px;
+    font-size: 24px;
     padding: 10%;
 }
 .slider > img {
@@ -132,10 +129,11 @@ footer > div > div > div > img{
   .nonForPhone {
       display: none;
   }
+  .center-y{
+      justify-content: center;
+  }
   .aboutImg{
       width: 50%;
-      height: 300px;
-      margin: 0 70px 0 100px;
   }
   .btn-nav{
       font-size: 20px;
@@ -148,6 +146,10 @@ footer > div > div > div > img{
       display: flex;
       justify-content: center;
       align-items: center;
+  }
+  #aboutUs > div{
+  width: 90%;
+  margin: auto;
   }
   p{
       text-align: center;

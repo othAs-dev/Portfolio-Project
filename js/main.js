@@ -1,4 +1,10 @@
-
+let typed = new Typed('#typed', {
+    strings: ["Qui est derrière les manettes ?"],
+    typeSpeed : 90,
+    backSpeed : 50,
+    loop: true,
+    showCursor: true
+})
 const items = document.querySelectorAll('.sliderImage');
 const nbSlide = items.length;
 const suivant = document.querySelector('.right');
